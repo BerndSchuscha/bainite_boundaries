@@ -52,4 +52,5 @@ For questions, suggestions, or collaboration inquiries, please contact **Bernd S
 
 
 ## Authors:
+   - Sophie Steger
    - Bernd Schuscha (bernd.schuscha@mcl.at)
