@@ -32,72 +32,18 @@ To set up the project environment:
 The primary script for calculations is located at:
    ```sh
    bainite_boundaries/BC_calculation
+   ``'
+The evulation points are in
    ```
-   ```
-   final_samples
+   data/final_samples
    ```
 
-### Generating Final Plots
-To generate final evaluation plots, run the Jupyter notebook:
+### Evaluate results
+The result is evaluted in the Jupyter notebook:
    ```sh
    jupyter notebook bainite_boundaries/visualization/make_final_plot.ipynb
    ```
 
-### Running k-fold plots
-1. Ensure the environment is activated:
-   ```sh
-   conda activate bainite_boundaries
-   ```
-2. Open the Jupyter notebook:
-   ```sh
-   jupyter notebook Make_kfold_plots.ipynb
-   ```
-
-## Documentation
-
-To build and view documentation:
-1. Install dependencies:
-   ```sh
-   pip install -r docs/requirements.txt
-   ```
-2. Build documentation:
-   ```sh
-   mkdocs build
-   ```
-3. Serve documentation locally:
-   ```sh
-   mkdocs serve
-   ```
-4. Open `http://127.0.0.1:8000/` in your browser.
-
-## Testing
-
-To run the test suite:
-   ```sh
-   pytest
-   ```
-
-## Contributing
-
-We welcome contributions! Follow these steps:
-1. Fork the repository.
-2. Create a new feature branch:
-   ```sh
-   git checkout -b feature-branch
-   ```
-3. Commit your changes:
-   ```sh
-   git commit -m "Description of changes"
-   ```
-4. Push to your branch:
-   ```sh
-   git push origin feature-branch
-   ```
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
