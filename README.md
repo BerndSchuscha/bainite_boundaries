@@ -35,7 +35,7 @@ The primary script for calculations is located at:
    ```
 The evulation points are in
    ```
-   data/final_samples
+   data/final_samples.txt
    ```
 
 ### Evaluate results
