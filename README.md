@@ -32,7 +32,7 @@ To set up the project environment:
 The primary script for calculations is located at:
    ```sh
    bainite_boundaries/BC_calculation
-   ``'
+   ```
 The evulation points are in
    ```
    data/final_samples
